@@ -11,7 +11,7 @@
     FB.login(function(response) {
       if (response.authResponse) {
         jQuery.ajax({
-          url: 'php/fb-login.php',
+          url: 'assets/include/fb-login.php',
           type: 'POST',
           data: {
             'access_token': response.authResponse.accessToken

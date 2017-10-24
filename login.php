@@ -426,10 +426,10 @@ if(count($errMessage) > 0){ ?>
 					<input type="hidden" name="location" value="<?php if(isset($_GET['location'])) { echo htmlspecialchars($_GET['location']); } if(isset($redirect)) { echo htmlspecialchars($redirect); } ?>" />
 		            <label class="checkbox">
 					<span class="pull-left">
-		                    <a data-toggle="modal" href="login.html#userModal"> Forgot Username?</a>
+		                    <a data-toggle="modal" href="login.php#userModal"> Forgot Username?</a>
 		                </span>
 		                <span class="pull-right">
-		                    <a data-toggle="modal" href="login.html#passModal"> Forgot Password?</a>
+		                    <a data-toggle="modal" href="login.php#passModal"> Forgot Password?</a>
 		                </span>
 		            </label>
 		            <button class="btn btn-theme btn-block" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
@@ -441,7 +441,7 @@ if(count($errMessage) > 0){ ?>
 		            </div>
 		            <div class="registration">
 		                Don't have an account yet?<br/>
-		                <a data-toggle="modal" href="login.html#registerModal">
+		                <a data-toggle="modal" href="login.php#registerModal">
 		                    Create an account
 		                </a>
 		            </div>
@@ -650,7 +650,7 @@ if(count($errMessage) > 0){ ?>
 				</form>
 
 		          <!-- Password Modal -->
-				  <form class="form-login" method="post" action="php/forgot.php?code=pass">
+				  <form class="form-login" method="post" action="assets/include/forgot.php?code=pass">
 				  <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="passModal" class="modal fade">
 		              <div class="modal-dialog">
 		                  <div class="modal-content">
@@ -675,7 +675,7 @@ if(count($errMessage) > 0){ ?>
 		          </div>
 
 				  <!-- Username Modal -->
-				  <form class="form-login" method="post" action="php/forgot.php?code=user">
+				  <form class="form-login" method="post" action="assets/include/forgot.php?code=user">
 		          <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="userModal" class="modal fade">
 		              <div class="modal-dialog">
 		                  <div class="modal-content">
