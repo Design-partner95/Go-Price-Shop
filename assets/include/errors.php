@@ -7,7 +7,7 @@
 	while($results = $result->fetch_array()) {
 		$result_array[] = $results;
 	}
-	
+
 	foreach ($result_array as $result) {
 		$errornum = $result['errorcode'];
 		if($errornum == ""){
@@ -21,10 +21,10 @@
 			echo '<td>'.$result['filename'].'</td>';
 			echo '<td class="text-left">'.$errordef.'</td>';
 			echo '<td class="text-left">IP: '.$result['ipadd'] . ' Proxy: '.$result['ipproxy'].'</td>';
-			echo '<td class="text-left"><a href="php/delete-error.php?id='.$result['id'].'">Delete</a></td>';
+			echo '<td class="text-left"><a href="assets/include/delete-error.php?id='.$result['id'].'">Delete</a></td>';
 			echo '</tr>';
 	}
-	
+
 	if(empty($result_array)){
 		echo '<tr>';
 		echo '<td class="text-left">No errors at this time.</td>';

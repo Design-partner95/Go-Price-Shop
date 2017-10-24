@@ -36,7 +36,7 @@ verifyAdmin(); ?>
       			    $result = $test_db->query($query);
       			    $numerrors = mysqli_num_rows($result);?>
       			<h3>Most Recently Added Errors</h3>
-      			<h4>Currently <?php echo $numerrors;?> error(s).<?php if($numerrors > 0){ ?> Would you like to clear error list? <a href="php/delete-error.php?id=all">Delete all errors</a><?php } ?></h4>
+      			<h4>Currently <?php echo $numerrors;?> error(s).<?php if($numerrors > 0){ ?> Would you like to clear error list? <a href="assets/include/delete-error.php?id=all">Delete all errors</a><?php } ?></h4>
             <div class="row mt">
   			  		<div class="col-lg-12">
                 <div class="content-panel">

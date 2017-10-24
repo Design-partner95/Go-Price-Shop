@@ -39,9 +39,9 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'https://www.drmwebdesign.com/assets/img/bg01.jpg': 'center',
-							'https://www.drmwebdesign.com/assets/img/bg02.jpg': 'center',
-							'https://www.drmwebdesign.com/assets/img/bg03.jpg': 'center'
+							'https://www.gopriceshop.com/assets/img/bg01.jpg': 'center',
+							'https://www.gopriceshop.com/assets/img/bg02.jpg': 'center',
+							'https://www.gopriceshop.com/assets/img/bg03.jpg': 'center'
 						},
 
 					// Delay.

@@ -59,7 +59,7 @@ global $path;
 					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; DRM Web Design</li>
+					<li>&copy; Go Price Shop</li>
 				</ul>
 			</footer>
 		<!-- Scripts -->
