@@ -62,7 +62,7 @@ function mylog($errormess, $pagename, $errlvl) {
 		$remove[] = '"';
 		$clear = str_replace( $remove, "", $errormess );
 		date_default_timezone_set("America/New_York");
-		$timestamp = date("Y-m-d h:i:sa");
+		$timestamp = date("Y-m-d H:i:s");
 		$cust_id = "1";
 		$query = "INSERT INTO errorlog (errormessage, filename, timestamp, cust_id) VALUES ('$clear','$pagename','$timestamp','$cust_id')";
 		$result = $connect_db->query($query);
@@ -83,9 +83,9 @@ function mylog($errormess, $pagename, $errlvl) {
 		$message .= '<p>File: ' . $pagename .'</p>';
 		$message .= '</body></html>';
 		if(mail($to, $subject, $message, $headers)){
-			header("Location:". $path ."errors/index.php?code=fatal");
+			header("Location:". $path ."page-500.php");
 		}else{
-			header("Location:". $path ."errors/index.php?code=fatal");
+			header("Location:". $path ."page-500.php");
 		}
 }
 ?>
