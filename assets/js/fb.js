@@ -22,7 +22,7 @@
               document.getElementById("fb_status").innerHTML = 'User is not logged in yet.';
             }
 			if (res === 'true'){
-				window.location.href = "https://www.drmwebdesign.com/dashboard.php";
+				window.location.href = "https://www.gopriceshop.com/dashboard.php";
           }
         }
       });
