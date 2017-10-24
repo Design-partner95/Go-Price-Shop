@@ -2,7 +2,7 @@
 <html lang="en" class="fullscreen-bg">
 
 <head>
-	<title>Login | DiffDash - Free Admin Template</title>
+	<title>Forgot Password | DiffDash - Free Admin Template</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -25,31 +25,21 @@
 	<div id="wrapper">
 		<div class="vertical-align-wrap">
 			<div class="vertical-align-middle">
-				<div class="auth-box">
+				<div class="auth-box forgot-password">
 					<div class="content">
 						<div class="header">
 							<div class="logo text-center"><img src="assets/img/logo.png" alt="DiffDash"></div>
-							<p class="lead">Login to your account</p>
+							<p class="lead">Recover my password</p>
 						</div>
+						<p class="text-center margin-bottom-30">Please enter your email address below to receive instructions for resetting password.</p>
 						<form class="form-auth-small" action="index.php">
 							<div class="form-group">
-								<label for="signin-email" class="control-label sr-only">Email</label>
-								<input type="email" class="form-control" id="signin-email" value="samuel.gold@domain.com" placeholder="Email">
+								<label for="signup-password" class="control-label sr-only">Password</label>
+								<input type="password" class="form-control" id="signup-password" placeholder="Password">
 							</div>
-							<div class="form-group">
-								<label for="signin-password" class="control-label sr-only">Password</label>
-								<input type="password" class="form-control" id="signin-password" value="thisisthepassword" placeholder="Password">
-							</div>
-							<div class="form-group clearfix">
-								<label class="fancy-checkbox element-left">
-									<input type="checkbox">
-									<span>Remember me</span>
-								</label>
-								<span class="helper-text element-right">Don't have an account? <a href="page-register.html">Register</a></span>
-							</div>
-							<button type="submit" class="btn btn-primary btn-lg btn-block">LOGIN</button>
+							<button type="submit" class="btn btn-primary btn-lg btn-block">RESET PASSWORD</button>
 							<div class="bottom">
-								<span class="helper-text"><i class="fa fa-lock"></i> <a href="page-forgot-password.html">Forgot password?</a></span>
+								<span class="helper-text">Know your password? <a href="page-login.html">Login</a></span>
 							</div>
 						</form>
 					</div>
