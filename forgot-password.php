@@ -93,7 +93,7 @@ $error_css = $error_css1 = ""; ?>
 			$encrypted = encryptIt( $newpass );
 			$query = "UPDATE cust_data SET passwd = '$encrypted', passreset = 'TRUE' WHERE id = '$cid'";
 			$result = $test_db->query($query);
-			logActivity("4","forgot",$cust_id);
+			logActivity("4","forgot",$cid,"NA");
 			header("Location:".$path."accountpending.php?code=pass");
 			exit();
 		}

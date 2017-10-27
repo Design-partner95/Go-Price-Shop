@@ -17,37 +17,27 @@
 	<link rel="stylesheet" href="assets/vendor/toastr/toastr.min.css">
 	<!-- MAIN CSS -->
 	<link rel="stylesheet" href="assets/css/main.css">
-	<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
-	<link rel="stylesheet" href="assets/css/demo.css">
 	<!-- GOOGLE FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
 	<!-- ICONS -->
 	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
 </head>
-
 <body>
-	<!-- WRAPPER -->
 	<div id="wrapper">
-		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-btn">
 					<button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu"></i></button>
 				</div>
-				<!-- logo -->
 				<div class="navbar-brand">
 					<a href="index.html"><img src="assets/img/logo.png" alt="DiffDash Logo" class="img-responsive logo"></a>
 				</div>
-				<!-- end logo -->
 				<div class="navbar-right">
-					<!-- search form -->
 					<form id="navbar-search" class="navbar-form search-form">
 						<input value="" class="form-control" placeholder="Search here..." type="text">
 						<button type="button" class="btn btn-default"><i class="fa fa-search"></i></button>
 					</form>
-					<!-- end search form -->
-					<!-- navbar menu -->
 					<div id="navbar-menu">
 						<ul class="nav navbar-nav">
 							<li class="dropdown">
@@ -175,12 +165,9 @@
 							</li>
 						</ul>
 					</div>
-					<!-- end navbar menu -->
 				</div>
 			</div>
 		</nav>
-		<!-- END NAVBAR -->
-		<!-- LEFT SIDEBAR -->
 		<div id="left-sidebar" class="sidebar">
 			<button type="button" class="btn btn-xs btn-link btn-toggle-fullwidth">
 				<span class="sr-only">Toggle Fullwidth</span>
@@ -202,62 +189,45 @@
 				</div>
 				<nav id="left-sidebar-nav" class="sidebar-nav">
 					<ul id="main-menu" class="metismenu">
-						<li class="active"><a href="index.html"><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
+						<li class="active"><a href="dashboard.php"><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
 						<li class="">
-							<a href="#uiElements" class="has-arrow" aria-expanded="false"><i class="lnr lnr-magic-wand"></i> <span>UI Elements</span></a>
+							<a href="#uiElements" class="has-arrow" aria-expanded="false"><i class="lnr lnr-magic-wand"></i> <span>Styling Examples</span></a>
 							<ul aria-expanded="true">
-								<li class=""><a href="ui-tabs.html">Tabs</a></li>
-								<li class=""><a href="ui-buttons.html">Buttons</a></li>
-								<li class=""><a href="ui-bootstrap.html">Bootstrap UI</a></li>
-								<li class=""><a href="ui-icons.html"><span>Icons</span></a></li>
+								<li class=""><a href="ui-tabs.php">Tabs</a></li>
+								<li class=""><a href="ui-buttons.php">Buttons</a></li>
+								<li class=""><a href="ui-bootstrap.php">Bootstrap UI</a></li>
+								<li class=""><a href="ui-icons.php"><span>Icons</span></a></li>
+								<li class=""><a href="forms-validation.php">Form Validation</a></li>
+								<li class=""><a href="forms-advanced.php">Advanced Form Elements</a></li>
+								<li class=""><a href="forms-basic.php">Basic Form Elements</a></li>
+								<li class=""><a href="forms-dragdropupload.php">Drag &amp; Drop Upload</a></li>
+								<li class=""><a href="forms-texteditor.php">Text Editor</a></li>
+								<li class=""><a href="charts-chartist.php">Chartist</a></li>
+								<li class=""><a href="charts-sparkline.php">Sparkline Chart</a></li>
+								<li class=""><a href="notifications.php">Notifications</span> <span class="badge bg-danger">15</span></a></li>
+								<li class=""><a href="typography.php">Typography</a></li>
 							</ul>
 						</li>
 						<li class="">
 							<a href="#subPages" class="has-arrow" aria-expanded="false"><i class="lnr lnr-file-empty"></i> <span>Pages</span></a>
 							<ul aria-expanded="true">
-								<li class=""><a href="page-profile.html">User Profile</a></li>
-								<li class=""><a href="page-login.html">Login</a></li>
-								<li class=""><a href="page-register.html">Register</a></li>
-								<li class=""><a href="page-lockscreen.html">Lockscreen</a></li>
-								<li class=""><a href="page-forgot-password.html">Forgot Password</a></li>
-								<li class=""><a href="page-404.html">Page 404</a></li>
+								<li class=""><a href="profile.php">User Profile</a></li>
+								<li class=""><a href="accountpending.php">Account Pending</a></li>
+								<li class=""><a href="login.php">Login</a></li>
+								<li class=""><a href="register.php">Register</a></li>
+								<li class=""><a href="page-lockscreen.php">Lockscreen</a></li>
+								<li class=""><a href="forgot-password.php">Forgot Password</a></li>
+								<li class=""><a href="page-404.php">Page 404</a></li>
 								<li class=""><a href="page-500.html">Page 500</a></li>
 							</ul>
 						</li>
-						<li class="">
-							<a href="#forms" class="has-arrow" aria-expanded="false"><i class="lnr lnr-pencil"></i> <span>Forms</span></a>
-							<ul aria-expanded="true">
-								<li class=""><a href="forms-validation.html">Form Validation</a></li>
-								<li class=""><a href="forms-advanced.html">Advanced Form Elements</a></li>
-								<li class=""><a href="forms-basic.html">Basic Form Elements</a></li>
-								<li class=""><a href="forms-dragdropupload.html">Drag &amp; Drop Upload</a></li>
-								<li class=""><a href="forms-texteditor.html">Text Editor</a></li>
-							</ul>
-						</li>
-						<li class="">
-							<a href="#charts" class="has-arrow" aria-expanded="false"><i class="lnr lnr-chart-bars"></i> <span>Charts</span></a>
-							<ul aria-expanded="true">
-								<li class=""><a href="charts-chartist.html">Chartist</a></li>
-								<li class=""><a href="charts-sparkline.html">Sparkline Chart</a></li>
-							</ul>
-						</li>
-						<li class=""><a href="notifications.html"><i class="lnr lnr-alarm"></i> <span>Notifications</span> <span class="badge bg-danger">15</span></a></li>
-						<li class=""><a href="typography.html"><i class="lnr lnr-text-format"></i> <span>Typography</span></a></li>
 					</ul>
 				</nav>
-				<div style="padding: 30px; text-align: center;">
-					<h2 style="font-size: 16px; margin-bottom: 15px; font-weight: 700;">Other Similar Template</h2>
-					<a href="https://www.themeineed.com/downloads/klorofil-pro-bootstrap-admin-dashboard-template/?utm_source=diffdash&utm_medium=template&utm_campaign=KlorofilPro" target="_blank"><img src="assets/img/klorofilpro.png" class="img-responsive thumbnail" alt=""></a>
-					<a href="https://www.themeineed.com/downloads/klorofil-pro-bootstrap-admin-dashboard-template/?utm_source=diffdash&utm_medium=template&utm_campaign=KlorofilPro" target="_blank" class="btn btn-primary">VIEW DEMO</a>
-				</div>
 			</div>
 		</div>
-		<!-- END LEFT SIDEBAR -->
-		<!-- MAIN CONTENT -->
 		<div id="main-content">
 			<div class="container-fluid">
 				<h1 class="sr-only">Dashboard</h1>
-				<!-- WEBSITE ANALYTICS -->
 				<div class="dashboard-section">
 					<div class="section-heading clearfix">
 						<h2 class="section-title"><i class="fa fa-pie-chart"></i> Website Analytics</h2>
@@ -343,7 +313,6 @@
 									</li>
 								</ul>
 							</div>
-							<!-- END REFERRALS -->
 						</div>
 						<div class="col-md-4">
 							<div class="panel-content">
@@ -397,13 +366,10 @@
 										</tbody>
 									</table>
 								</div>
-								<!-- END BROWSERS -->
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- END WEBSITE ANALYTICS -->
-				<!-- SALES SUMMARY -->
 				<div class="dashboard-section">
 					<div class="section-heading clearfix">
 						<h2 class="section-title"><i class="fa fa-shopping-basket"></i> Sales Summary</h2>
@@ -522,8 +488,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- END SALES SUMMARY -->
-				<!-- CAMPAIGN -->
 				<div class="dashboard-section">
 					<div class="section-heading clearfix">
 						<h2 class="section-title"><i class="fa fa-flag-checkered"></i> Campaign</h2>
@@ -570,8 +534,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- END CAMPAIGN -->
-				<!-- SOCIAL -->
 				<div class="dashboard-section no-margin">
 					<div class="section-heading clearfix">
 						<h2 class="section-title"><i class="fa fa-user-circle"></i> Social <span class="section-subtitle">(7 days report)</span></h2>
@@ -594,17 +556,13 @@
 						</div>
 					</div>
 				</div>
-				<!-- END SOCIAL -->
 			</div>
 		</div>
-		<!-- END MAIN CONTENT -->
 		<div class="clearfix"></div>
 		<footer>
 			<p class="copyright">&copy; 2017 <a href="https://www.themeineed.com" target="_blank">Theme I Need</a>. All Rights Reserved.</p>
 		</footer>
 	</div>
-	<!-- END WRAPPER -->
-	<!-- Javascript -->
 	<script src="assets/vendor/jquery/jquery.min.js"></script>
 	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<script src="assets/vendor/metisMenu/metisMenu.js"></script>
@@ -808,5 +766,4 @@
 	});
 	</script>
 </body>
-
 </html>
